@@ -1,0 +1,282 @@
+[
+  {
+    "image_path": "./question_images/question_001_python_easy.png",
+    "topic": "Python Basics",
+    "difficulty": "EASY",
+    "question": "Which of the following describes variable declaration in Python?",
+    "options": {
+      "A": "Variables must be declared with a specific type before use.",
+      "B": "Variables are dynamically typed and don't require explicit declaration.",
+      "C": "Variables require the 'var' keyword for initialization.",
+      "D": "Type hints are mandatory for all variable assignments."
+    },
+    "correct_option": "B",
+    "explanation": "In Python, variables are dynamically typed and don't require explicit type declaration."
+  },
+  {
+    "image_path": "./question_images/question_002_python_medium.png",
+    "topic": "Python Data Structures",
+    "difficulty": "MEDIUM",
+    "question": "What is the most concise way to create a list from an existing iterable in Python?",
+    "options": {
+      "A": "Using a standard for-loop with .append()",
+      "B": "Using the map() function with a lambda",
+      "C": "Using list comprehensions",
+      "D": "Using a while-loop with index tracking"
+    },
+    "correct_option": "C",
+    "explanation": "List comprehensions provide a concise way to create lists in Python."
+  },
+  {
+    "image_path": "./question_images/question_003_ml_easy.png",
+    "topic": "Machine Learning",
+    "difficulty": "EASY",
+    "question": "What is a defining characteristic of supervised learning?",
+    "options": {
+      "A": "It uses labeled training data to train models.",
+      "B": "It identifies hidden patterns in unlabeled data.",
+      "C": "It relies solely on a reward/penalty system.",
+      "D": "It does not require a loss function."
+    },
+    "correct_option": "A",
+    "explanation": "Supervised learning uses labeled training data."
+  },
+  {
+    "image_path": "./question_images/question_004_ml_medium.png",
+    "topic": "Machine Learning",
+    "difficulty": "MEDIUM",
+    "question": "Which tasks can be performed using Decision Trees?",
+    "options": {
+      "A": "Classification only",
+      "B": "Regression only",
+      "C": "Clustering and Dimensionality Reduction",
+      "D": "Both classification and regression tasks"
+    },
+    "correct_option": "D",
+    "explanation": "Decision trees can be used for both classification and regression tasks."
+  },
+  {
+    "image_path": "./question_images/question_005_algorithms_hard.png",
+    "topic": "Algorithms",
+    "difficulty": "HARD",
+    "question": "What is the average-case time complexity of the QuickSort algorithm?",
+    "options": {
+      "A": "O(n)",
+      "B": "O(n log n)",
+      "C": "O(n^2)",
+      "D": "O(log n)"
+    },
+    "correct_option": "B",
+    "explanation": "QuickSort has an average time complexity of $O(n /log n)$."
+  },
+  {
+    "image_path": "./question_images/question_006_sql_medium.png",
+    "topic": "SQL",
+    "difficulty": "MEDIUM",
+    "question": "What is the primary function of an INNER JOIN in SQL?",
+    "options": {
+      "A": "Returns all rows from the left table and matched rows from the right.",
+      "B": "Returns all rows when there is a match in either table.",
+      "C": "Returns only rows where there is a match in both tables.",
+      "D": "Returns all rows from both tables regardless of matches."
+    },
+    "correct_option": "C",
+    "explanation": "INNER JOIN returns only matching rows from both tables."
+  },
+  {
+    "image_path": "./question_images/question_007_deeplearning_hard.png",
+    "topic": "Deep Learning",
+    "difficulty": "HARD",
+    "question": "What is the primary role of backpropagation in a neural network?",
+    "options": {
+      "A": "To compute gradients for weight updates.",
+      "B": "To normalize the input data features.",
+      "C": "To initialize the bias terms of each layer.",
+      "D": "To perform the final classification via Softmax."
+    },
+    "correct_option": "A",
+    "explanation": "Backpropagation is used to compute gradients in neural networks."
+  },
+  {
+    "image_path": "./question_images/question_008_statistics_medium.png",
+    "topic": "Statistics",
+    "difficulty": "MEDIUM",
+    "question": "What does the standard deviation of a dataset represent?",
+    "options": {
+      "A": "The middle value in the sorted dataset.",
+      "B": "The dispersion or spread of data from the mean.",
+      "C": "The average of the squared values of the data.",
+      "D": "The difference between the maximum and minimum values."
+    },
+    "correct_option": "B",
+    "explanation": "Standard deviation measures the dispersion of data from the mean."
+  },
+  {
+    "image_path": "./question_images/question_009_docker_easy.png",
+    "topic": "Docker",
+    "difficulty": "EASY",
+    "question": "Why are Docker containers considered lightweight compared to Virtual Machines?",
+    "options": {
+      "A": "They include a full copy of the guest Operating System.",
+      "B": "They run directly on the hardware without an OS.",
+      "C": "They use hardware-level emulation for all tasks.",
+      "D": "They share the host OS kernel instead of bundling an OS."
+    },
+    "correct_option": "D",
+    "explanation": "Docker containers share the host OS kernel, making them lightweight."
+  },
+  {
+    "image_path": "./question_images/question_010_git_easy.png",
+    "topic": "Git",
+    "difficulty": "EASY",
+    "question": "What does the 'git merge' command do?",
+    "options": {
+      "A": "Combines changes from one branch into another.",
+      "B": "Uploads local changes to a remote repository.",
+      "C": "Creates a temporary snapshot of the current directory.",
+      "D": "Deletes a branch that is no longer needed."
+    },
+    "correct_option": "A",
+    "explanation": "git merge combines changes from one branch into another."
+  },
+  {
+    "image_path": "./question_images/question_011_neural_nets_hard.png",
+    "topic": "Neural Networks",
+    "difficulty": "HARD",
+    "question": "Which benefit does the ReLU activation function provide in deep networks?",
+    "options": {
+      "A": "It ensures the output is always between 0 and 1.",
+      "B": "It prevents weights from becoming too large (exploding).",
+      "C": "It helps mitigate the vanishing gradient problem.",
+      "D": "It acts as a built-in regularization like Dropout."
+    },
+    "correct_option": "C",
+    "explanation": "ReLU activation function helps mitigate the vanishing gradient problem."
+  },
+  {
+    "image_path": "./question_images/question_012_pandas_medium.png",
+    "topic": "Pandas",
+    "difficulty": "MEDIUM",
+    "question": "Which Pandas function is used to split data into groups based on some criteria?",
+    "options": {
+      "A": "pivot_table()",
+      "B": "groupby()",
+      "C": "aggregate()",
+      "D": "sort_values()"
+    },
+    "correct_option": "B",
+    "explanation": "groupby() is used to group data in pandas DataFrames."
+  },
+  {
+    "image_path": "./question_images/question_013_numpy_medium.png",
+    "topic": "NumPy",
+    "difficulty": "MEDIUM",
+    "question": "What is 'broadcasting' in the context of NumPy?",
+    "options": {
+      "A": "Sending data from one CPU core to another.",
+      "B": "Converting a 1D array into a 2D matrix.",
+      "C": "Saving arrays to a binary file format.",
+      "D": "Allowing operations on arrays of different shapes."
+    },
+    "correct_option": "D",
+    "explanation": "Broadcasting allows NumPy to perform operations on arrays of different shapes."
+  },
+  {
+    "image_path": "./question_images/question_014_transformers_hard.png",
+    "topic": "Transformers",
+    "difficulty": "HARD",
+    "question": "What is considered the 'core' component of the Transformer architecture?",
+    "options": {
+      "A": "Self-attention mechanism",
+      "B": "Recurrent Neural Network layers",
+      "C": "Convolutional feature extractors",
+      "D": "Max-pooling layers"
+    },
+    "correct_option": "A",
+    "explanation": "Self-attention mechanism is the core of transformer architecture."
+  },
+  {
+    "image_path": "./question_images/question_015_regex_medium.png",
+    "topic": "Regular Expressions",
+    "difficulty": "MEDIUM",
+    "question": "In a Regular Expression, what does the '+' quantifier match?",
+    "options": {
+      "A": "Zero or more occurrences",
+      "B": "Exactly one occurrence",
+      "C": "One or more occurrences",
+      "D": "Optional (zero or one) occurrences"
+    },
+    "correct_option": "C",
+    "explanation": "The + quantifier matches one or more occurrences."
+  },
+  {
+    "image_path": "./question_images/question_016_api_easy.png",
+    "topic": "REST API",
+    "difficulty": "EASY",
+    "question": "Which HTTP method is typically used to create a new resource in a REST API?",
+    "options": {
+      "A": "GET",
+      "B": "POST",
+      "C": "PUT",
+      "D": "PATCH"
+    },
+    "correct_option": "B",
+    "explanation": "POST is used to create new resources in REST APIs."
+  },
+  {
+    "image_path": "./question_images/question_017_optimization_hard.png",
+    "topic": "Optimization",
+    "difficulty": "HARD",
+    "question": "How does the Adam optimizer function?",
+    "options": {
+      "A": "It uses only a constant learning rate for all parameters.",
+      "B": "It relies exclusively on second-order derivatives (Hessian).",
+      "C": "It is a version of Stochastic Gradient Descent without momentum.",
+      "D": "It combines the advantages of RMSprop and momentum."
+    },
+    "correct_option": "D",
+    "explanation": "Adam optimizer combines advantages of RMSprop and momentum."
+  },
+  {
+    "image_path": "./question_images/question_018_testing_medium.png",
+    "topic": "Software Testing",
+    "difficulty": "MEDIUM",
+    "question": "What is the main focus of a Unit Test?",
+    "options": {
+      "A": "Testing individual components or functions in isolation.",
+      "B": "Testing the interaction between multiple modules.",
+      "C": "Testing the entire software system from end-to-end.",
+      "6D": "Testing the software's performance under heavy load."
+    },
+    "correct_option": "A",
+    "explanation": "Unit tests focus on testing individual components in isolation."
+  },
+  {
+    "image_path": "./question_images/question_019_cloud_easy.png",
+    "topic": "Cloud Computing",
+    "difficulty": "EASY",
+    "question": "What type of service is Amazon S3?",
+    "options": {
+      "A": "Relational Database Service",
+      "B": "Serverless Compute Service",
+      "C": "Object Storage Service",
+      "D": "Content Delivery Network"
+    },
+    "correct_option": "C",
+    "explanation": "S3 is AWS's object storage service."
+  },
+  {
+    "image_path": "./question_images/question_020_llm_hard.png",
+    "topic": "Large Language Models",
+    "difficulty": "HARD",
+    "question": "What does the 'Temperature' parameter control in LLM text generation?",
+    "options": {
+      "A": "The total number of tokens generated.",
+      "B": "The randomness and creativity of the output.",
+      "C": "The speed at which the model processes the prompt.",
+      "D": "The learning rate used during fine-tuning."
+    },
+    "correct_option": "B",
+    "explanation": "Temperature parameter controls randomness in LLM outputs."
+  }
+]

@@ -1,0 +1,3 @@
+-- Optional: Add sample users for testing
+-- INSERT INTO users (email, status, created_at) VALUES 
+-- ('test@example.com', 'PENDING', NOW());
